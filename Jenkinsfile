@@ -3,11 +3,11 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
-        DOCKERHUB_USERNAME       = 'prashik536'
+        DOCKERHUB_USERNAME       = 'pranayyy123'
         IMAGE_NAME               = 'bike-frontend'
         IMAGE_TAG                = "${env.BUILD_NUMBER}"
         DEPLOY_SSH_CREDENTIALS_ID = 'ec2-ssh-key'
-        DEPLOY_HOST               = '172.31.15.215'
+        DEPLOY_HOST               = '172.31.31.240'
     }
 
     stages {
