@@ -29,7 +29,7 @@ function Home() {
   return (
     <>
       <section className="hero-section">
-        <h2>Find Your Perfect Ride</h2>
+        <h2>Find Your Perfect Ride 2</h2>
         <p>Discover our curated collection of high-performance bicycles for every terrain.</p>
       </section>
 
